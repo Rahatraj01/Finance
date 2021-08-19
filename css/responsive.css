@@ -1,0 +1,172 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+
+  .banner{
+    height: auto;
+    width: 360px;
+  }
+
+  .b-left h1{
+    margin-bottom: 30px;
+    margin-right: 0;
+    margin-top: 34px;
+    padding-bottom: 40px;
+    font-size: 40px;
+  }
+  .offset-1 {
+     margin-left: 0%; 
+  }
+  .banner .b-left p br{
+    display: none;
+  }
+  .banner .b-left p{
+    font-size: 16px;
+  }
+  .from p{
+    font-size: 16px;
+  }
+  /*.from {
+    margin: -10px 0;
+  }  */
+  .b-right {
+    margin: 55px 0 165px;
+  }
+  /*.business{
+    padding-top: 660px;
+  }*/
+  .business-head p br{
+    display: none;
+  }
+  .bus-item {
+    margin: 22px 0;
+}
+  .business-head h2{
+        font-size: 24px;
+  }
+  .about-right h2{
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  .ab-top img{
+    width: 100%;
+  }
+  .ab-nav{
+    padding: 25px 60px 25px 35px;
+  }
+  /*.about-area .dot{
+    display: flex;
+    justify-content: start;
+  }*/
+  .about-area{
+    height: auto;
+    padding:70px 0;
+  }
+  /*.choose{
+    padding-top: 1500px;
+  }*/
+  .about-area1 {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 70px;;
+  }
+  /*.slider{
+    margin-top: 1050px;
+  }*/
+  .offset-2 {
+     margin-left: 0%; 
+  }
+
+  .icon-text p{
+    display: inline-block;
+  }
+  .icon{
+    display: inline-block;
+  }
+  .blog-pic img{
+    width: 100%;
+  }
+  .con-list ul{
+    padding-left: 0;
+  }
+  .con-list h4{
+    margin-left: 0;
+  }
+  .conleft p {
+    margin-bottom: 50px;
+  }
+  .blog {
+    padding-top: 90px;
+     padding-bottom: 0; 
+  }
+  .blog h2{
+    font-size: 24px;
+  }
+  .item-1 h5{
+    margin-right: 0;
+  }
+  .item-1 p{
+    margin-right: 0;
+  }
+}
